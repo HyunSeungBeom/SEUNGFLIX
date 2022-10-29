@@ -1,5 +1,5 @@
-function TV() {
+function Tv() {
   return null;
 }
 
-export default TV;
+export default Tv;
