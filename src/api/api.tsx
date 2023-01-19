@@ -3,6 +3,7 @@ import { IGetMoviesResult } from "../types/type";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
+// baseAPi
 const baseApi = axios.create({
   baseURL: "https://api.themoviedb.org/3",
   timeout: 1000,
